@@ -1,0 +1,119 @@
+    /* index.css */
+
+    .navbar-brand {
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+
+    ./* CSS в файле index.css */
+
+    /* Устанавливаем размер шрифта для ссылок */
+    .nav-link {
+        font-size: 18px; /* Размер шрифта */
+        color: #ffffff; /* Цвет текста */
+        text-decoration: none; /* Убираем подчеркивание */
+        padding: 10px 20px; /* Поля вокруг текста */
+    }
+
+    /* При наведении меняем цвет фона */
+    .nav-link:hover {
+        background-color: #e63946; /* Цвет фона при наведении */
+        border-radius: 5px; /* Закругление углов */
+    }
+
+
+    /* Устанавливаем отступы между ссылками */
+    .nav-item {
+        margin-right: 20px; /* Измените отступ по вашему выбору */
+    }
+
+    /* CSS в файле main.css */
+
+    /* Анимация для создания пульсирующего эффекта */
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    /* Применяем анимацию к элементу с id "name-company" */
+    #name-company {
+        animation: pulse 2s infinite; /* Анимация будет повторяться бесконечно каждые 2 секунды */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #imagination{
+        width: 400px;
+        height: 250px;
+        border-radius: 20px;
+	
+	// The magic
+	border: 2px solid transparent;
+	background: linear-gradient(#000, #000) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #845EC2) border-box;
+    }
+    
+    #textation1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        color: white;
+        margin-top: 20px;
+    }
+
+    #textation12{
+        color: white;
+        font-size: 30px;
+    }
+      
+    #powerst{
+        background-color: rgba(255, 255, 255, 0.7); /* Прозрачный белый фон */
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   #opor{
+    font-weight: bold;
+   }
+   #input1{
+    border: 1px solid black;
+    
+   }
+
+   #formation{
+     color: white;
+     font-size: 20px;
+   }  
+
+ /* CSS для красного фона и белого текста */
+.custom-button {
+    background-color: gray;
+    color: white;
+    /* Дополнительные стили, если необходимо */
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: bold;
+  }
+  
+  /* Применение стиля к кнопке с классом custom-button */
+  .custom-button:hover {
+    background-color: darkred; /* Изменение цвета при наведении */
+  }
+  
+  #iconic{
+    color: white;
+  }
+
+  #facebook{
+    margin-right: 30px;
+  }
+  
+  #twitter{
+    margin-right: 30px;
+  }
